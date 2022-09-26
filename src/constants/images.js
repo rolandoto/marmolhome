@@ -23,7 +23,7 @@ import gericht from '../assets/gericht.png';
 import home  from "../assets/home.jpg"
 import about from "../image/Mademarmol_91.JPG"
 import special from "../image/isla.png"
-import ceo from "../image/ceo.png"
+import mader  from "../assets/auothormade.jpg"
 
 export default {
   bg,
@@ -51,5 +51,5 @@ export default {
   home,
   about,
   special,
-  ceo
+  mader
 };
