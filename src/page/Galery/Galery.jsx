@@ -906,7 +906,7 @@ const Galery =() =>{
     return (
         <div className="app__bg container mx-auto px-5 2xl:px-0 bp">
             <h1 className="text-slate-800 font-bold text-3xl md:text-4xl lg:text-6xl my-10 lg:mt-20 lg:mb-14">
-            <h1 className="app__header-h1">Galeria de mademarmol</h1>
+              <h1 className="app__header-h1">Galeria de mademarmol</h1>
             </h1>
 
             
@@ -916,33 +916,7 @@ const Galery =() =>{
                 )) }
             </section>
 
-            <section className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 pb-20 lg:container">
-              <h1 className="app__header-h1">piedras sinterizadas  </h1>
-                {sinterizadas.map(index =>(
-                    <div>
-                        <Article urls={index.image} />
-                    </div>
-                )) }
-            </section>
-
-            <section className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 pb-20 lg:container">
-              <h1 className="app__header-h1">Grantos exoticos</h1>
-                  {granitos.map(index =>(
-                      <div> 
-                          <Article urls={index.image} />
-                      </div>
-                  )) }
-            </section>
-
-            <section className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 pb-20 lg:container">
-              <h1 className="app__header-h1">Quartone</h1>
-                  {quartone.map(index =>(
-                      <div> 
-                          <Article urls={index.image} />
-                      </div>
-                  )) }
-            </section>
-                 
+    
       </div>
     )
 } 

@@ -16,7 +16,7 @@
 
 .app__navbar-logo img {
     width: 150px;
-    background: azure;
+    background: white;
     border-radius: 17px;
 }
 
@@ -133,3 +133,31 @@
         width: 110px;
     }
 }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #0c0c0c;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: initial;
+    width: 400%;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .ho:hover{
+    background: white;
+    width: 100%;
+    color: black;
+  }
