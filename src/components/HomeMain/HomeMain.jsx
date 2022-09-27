@@ -36,7 +36,7 @@ const HomeMain = () => {
         </div>
     
     </li>
-        <li className="p__opensans"><a href="https://marmol-1gvul0der-rolandoto.vercel.app" target="_blank" >Ecommerce</a></li>
+        <li className="p__opensans"><a href="https://ecommerce-sable-one.vercel.app" target="_blank" >Ecommerce</a></li>
       </ul>
       <div className="app__navbar-login">
       </div>
@@ -47,7 +47,7 @@ const HomeMain = () => {
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
               <li><Link onClick={() => setToggleMenu(false)}  to="/">Home</Link></li>
-              <li><a onClick={() => setToggleMenu(false)} href="https://marmol-1gvul0der-rolandoto.vercel.app" target="_blank" >Ecommerce</a></li>
+              <li><a onClick={() => setToggleMenu(false)} href="https://ecommerce-sable-one.vercel.app" target="_blank" >Ecommerce</a></li>
               <li><Link to="#" onClick={hand}>Galeria</Link></li>
             </ul>
           </div>
