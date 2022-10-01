@@ -8,6 +8,8 @@ import Social from './components/Social/Social';
 import Sinterizadas from './page/Galery/Sinterizadas';
 import Granitos from './page/Galery/Granitos';
 import Quarztone from './page/Galery/Quarztone';
+import Marmol from './page/Galery/Marmol';
+import Granitosnormal from './page/Galery/Granitosnormal';
 
 function App() {
   return (
@@ -18,9 +20,11 @@ function App() {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/Galary"  component={Galery} />
+              <Route exact path="/Marmol" component={Marmol} />
               <Route exact path="/Sinterizadas" component={Sinterizadas} />
               <Route exact path="/Granitos"  component={Granitos} />
-              <Route exact  path="/Quarztone" component={Quarztone} />
+              <Route exact path="/Quarztone" component={Quarztone} />
+              <Route exact path="/Grantisnormal" component={Granitosnormal} />
               <Route  path="*"  component={NoFound} />
             </Switch>
         </BrowserRouter>

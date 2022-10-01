@@ -14,12 +14,14 @@ const Social =() =>{
                     <a  className="fa fa-twitter"  href="https://twitter.com/mademarmol01" target="_blank"  >
                         <span id="title">Twitter</span>
                     </a>
-                    
                     <a  className="fa fa-instagram"  href="https://www.instagram.com/mademarmol_9/" target="_blank" >
                         <span id="title">Instagram</span>
                     </a>
-                    <a   className="fab fa-tiktok"  href="https://www.tiktok.com/@mademarmol_9" target="_blank" >
+                    <a   className="fab fa-tiktok"  href="https://www.tiktok.com/@mademarmolantioquia" target="_blank" >
                         <span id="title">TikTok</span>
+                    </a>
+                    <a   className="fab fa-whatsapp"  href="https://api.whatsapp.com/send/?phone=573137263479&text=Bienvenido%20a%20mademarmol" target="_blank" >
+                        <span id="title">whatsapp</span>
                     </a>
                 </div>
 	</div>

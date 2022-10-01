@@ -34,7 +34,6 @@ responsabilidad en todo momento.</p>
       <div className="app__chef-sign">
         <p>Sara Roman</p>
         <p className="p__opensans">Fundadora</p>
-        <img src={images.sign} alt="sign_image" />
       </div>
     </div>
   </div>

@@ -17,7 +17,7 @@ closet, etc.) de COCINAS INTEGRALES MADEMARMOL, teniendo en cuenta
 las exigencias y especificaciones de los diferentes clientes, donde puedan
 ser observados los detalles y especificaciones del diseño, que permitan la
 toma de decisions por parte del cliente antes de la compra.</p>
-        <button type="button" className="custom__button">Conocer mas</button>
+
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -29,7 +29,7 @@ toma de decisions por parte del cliente antes de la compra.</p>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">Generar una comunicación con el cliente, a través de diseños 3D para
 definir detalles del mueble y motivar la decisión de compra</p>
-        <button type="button" className="custom__button">Conocer mas</button>
+
       </div>
     </div>
   </div>

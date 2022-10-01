@@ -12,7 +12,7 @@ const Header = () => (
             el hogar como closet, cocinas integrales, muebles para baño,
             escritorios y puertas
       </p>
-      <button type="button" className="custom__button">Explorar mas</button>
+     
     </div>
     <div className="app__wrapper_img">
       <img src={images.home} alt="header_img" />
