@@ -32,7 +32,7 @@ const cocktails = [
     title: "Marmol",
   },
   {
-    title: 'Duarztone',
+    title: 'Quarztone',
   },
   {
     title: 'Silestone',

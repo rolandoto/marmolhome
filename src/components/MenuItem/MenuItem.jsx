@@ -8,7 +8,6 @@ const MenuItem = ({ title}) => (
         <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
       </div>
       <div className="app__menuitem-dash" />
-
     </div>
   </div>
 );

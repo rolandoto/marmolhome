@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
-
+    position: fixed !important;
     padding: 1rem 2rem;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .app__navbar-logo img {
-    width: 150px;
+    width: 72px;
     background: white;
     border-radius: 17px;
 }
@@ -81,7 +81,6 @@
     font-size: 27px;
     color: var(--color-golden);
     cursor: pointer;
-
     position: absolute;
     top: 20px;
     right: 20px;
@@ -118,11 +117,33 @@
     .app__navbar-smallscreen {
         display: flex;
     }
+
+    .app-navbar-logo{
+        animation-name: animar;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+
+    }
+
+    @keyframes animar{
+        0% {
+          -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        }
+        25% {
+          transform: scale(1.2);
+        }
+        50% {
+          transform: scale(1.3);
+        }
+      }
 }
 
 @media screen and (max-width: 650px) {
     .app__navbar {
         padding: 1rem;
+        position: fixed;
+        z-index: 2;
     }
 
     .app__navbar-login {
@@ -133,7 +154,6 @@
         width: 110px;
     }
 }
-
 
 .dropdown {
     position: relative;
@@ -155,9 +175,34 @@
     display: block;
   }
 
-
   .ho:hover{
     background: white;
     width: 100%;
     color: black;
+  }
+
+  .icon-whatsapp{
+    color: green;
+    animation-name: animar;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    cursor: pointer;
+    position: absolute;
+      top: 29px;
+      /* right: -112px; */
+      transition: 0.5s;
+      left: 19px;
+  }
+
+  @keyframes animar{
+    0% {
+      -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    }
+    25% {
+      transform: scale(1.2);
+    }
+    50% {
+      transform: scale(1.3);
+    }
   }

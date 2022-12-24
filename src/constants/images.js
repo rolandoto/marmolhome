@@ -24,6 +24,7 @@ import home  from "../assets/home.jpg"
 import about from "../image/Mademarmol_91.JPG"
 import special from "../image/isla.png"
 import mader  from "../assets/auothormade.jpg"
+import vane  from "../image/vane.JPG"
 
 export default {
   bg,
@@ -51,5 +52,6 @@ export default {
   home,
   about,
   special,
-  mader
+  mader,
+  vane
 };

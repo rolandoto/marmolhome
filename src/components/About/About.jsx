@@ -10,10 +10,10 @@ const AboutUs = () => (
     </div>
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Sobre Nosotros</h1>
+        <h1 className="headtext__cormorant">Nosotros</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Realizar diseños 3D y renders de los muebles (cocinas, muebles de baño,
-closet, etc.) de COCINAS INTEGRALES MADEMARMOL, teniendo en cuenta
+        <p className="p__opensans">Realizar diseños 3D cocinas, muebles de baño,
+closet, etc.) teniendo en cuenta
 las exigencias y especificaciones de los diferentes clientes, donde puedan
 ser observados los detalles y especificaciones del diseño, que permitan la
 toma de decisions por parte del cliente antes de la compra.</p>
@@ -25,11 +25,11 @@ toma de decisions por parte del cliente antes de la compra.</p>
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Objectivos</h1>
+        <h1 className="headtext__cormorant">Objetivos</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">Generar una comunicación con el cliente, a través de diseños 3D para
-definir detalles del mueble y motivar la decisión de compra</p>
-
+definir detalles del mueble y motivar la decisión de compra, apoyar al vendedor en su proceso comercial,
+entregandole Productos  de gran calidad,donde se vean proporciones,ubicaciones y materiales de los proyectos planteados y tener una herramienta potencializadora de venta</p>
       </div>
     </div>
   </div>

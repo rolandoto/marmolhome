@@ -21,7 +21,7 @@ const HomeMain = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <Link to={"/"} >
-          <img src="https://ciudadenredsas.info/mademarmol/wp-content/uploads/sites/42/2019/05/logo-final-1.png" alt="app__logo" />
+          <img src="https://github.com/rolandoto/galeria/blob/main/logo-final.jpg?raw=true" alt="app__logo" />
         </Link>
       </div>
       <ul className="app__navbar-links">
@@ -42,7 +42,9 @@ const HomeMain = () => {
       <div className="app__navbar-login">
       </div>
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+          <div className='app-navbar-logo' >
+            <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+          </div>
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
